@@ -1,0 +1,8 @@
+extension FirebaseAuthManager {
+    func signInWithGoogle(completion: @escaping (Bool, Error?) -> Void) {
+        // Şimdilik placeholder - Google Sign-In SDK gerekiyor
+        DispatchQueue.main.async {
+            completion(false, NSError(domain: "GoogleSignInNotImplemented", code: -1, userInfo: [NSLocalizedDescriptionKey: "Google Sign-In henüz implement edilmedi"]))
+        }
+    }
+}
